@@ -18,7 +18,7 @@ This is the link to our project page: http://tobias.isenberg.cc/graphics/LabSess
 
 Work on Windows
 
---- HOW TO LAUNCH THE CHAT ---
+--- HOW TO LAUNCH THE RAY TRACER ---
 
 Download the project, go to the project directory and type: make
 
