@@ -1,0 +1,112 @@
+---
+#  scene02
+
+RenderMode: "phong"
+
+Camera:
+    eye: [200,200,1000]
+    center: [200,200,0]
+    up: [0,1,0]
+    viewSize: [400,400]
+
+Shadows: false
+MaxRecursionDepth: 0
+
+SuperSampling:
+  factor: 1
+  pattern: "grid"
+  
+Lights:
+- position: [-1000,600,500]
+  color: [1.0,1.0,1.0]
+
+Objects:
+- type: box
+  min: [65,295,-125]
+  max: [115,345,-75]
+  material: # blue
+    color: [0.0,0.0,1.0]
+    ka: 0.3
+    kd: 0.7
+    ks: 0.8
+    n: 32
+    kt: 0
+    eta: 0
+- type: sphere
+  position: [210,270,-300]
+  radius: 50
+  material: # green
+    color: [0.0,1.0,0.0]
+    ka: 0.0
+    kd: 0.3
+    ks: 0.5
+    n: 8
+    kt: 0
+    eta: 0
+- type: sphere
+  position: [290,170,-150]
+  radius: 60
+  material: # red
+    color: [1.0,0.0,0.0]
+    ka: 0.2
+    kd: 0.7
+    ks: 0.8
+    n: 32
+    kt: 0
+    eta: 0
+- type: sphere
+  position: [290,230,-150]
+  radius: 60
+  material: # white?
+    color: [1.0,1.0,1.0]
+    ka: 0.3
+    kd: 0.7
+    ks: 0.8
+    n: 32
+    kt: 0
+    eta: 0
+- type: sphere
+  position: [290,170,-0]
+  radius: 20
+  material: 
+    color: [0.5,0.5,0.0]
+    ka: 0.2
+    kd: 0.7
+    ks: 0.8
+    n: 32
+    kt: 0
+    eta: 0
+- type: sphere
+  position: [140,220,-400]
+  radius: 50
+  material: 
+    color: [1.0,0.8,0.0]
+    ka: 0.2
+    kd: 0.8
+    ks: 0.0
+    n: 1
+    kt: 0
+    eta: 0
+- type: triangle
+  v1: [110,130,-200]
+  v2: [45,180,-150]
+  v3: [160,200,-220]
+  material: 
+    color: [1.0,0.5,0.0]
+    ka: 0.1
+    kd: 0.6
+    ks: 0.9
+    n: 32
+    kt: 0
+    eta: 0
+- type: plane
+  O: [180,180,-800]
+  N: [1.0,0.0,0.0]
+  material: 
+    color: [0.5,0.5,0.5]
+    ka: 0.1
+    kd: 0.2
+    ks: 0.8
+    n: 1
+    kt: 0
+    eta: 0

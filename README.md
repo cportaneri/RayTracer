@@ -27,3 +27,4 @@ You can either generate one scene by typing: ray scenes/yourscene.yaml
 Or click on the ray.bat who will generate all the scenes (~10 min)
 
 
+
