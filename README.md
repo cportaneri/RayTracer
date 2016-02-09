@@ -1,6 +1,6 @@
 /***** Ray Tracer *****/
 
-This is a Ray Tracer Framework made by Cedric Portaneri in December 2015 to January 2016 in C++. This school project was made for the Computer Graphics course in the M2R Interaction taught by Tobias Isenberg who gave me the baseline of the framework. 
+This is a Ray Tracer Framework made by Cedric Portaneri from December 2015 to January 2016 in C++ (1 month). This school project was made for the Computer Graphics course in the M2R Interaction taught by Tobias Isenberg who gave me the baseline of the framework. 
 
 I implemented features such as: 
 - Raycasting with spheres, planes, boxes, triangles, quads and cylinder
